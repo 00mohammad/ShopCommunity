@@ -77,8 +77,6 @@ ShopCommunity/
 │ ├── banner.png
 │ ├── product1.png
 │ └── ... (other images)
-│
-└── .gitignore # Git ignore file to exclude unnecessary files
 
 ---
 
