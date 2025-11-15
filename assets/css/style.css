@@ -55,28 +55,55 @@ ul img {
 }
 
 ul li:last-child {
-  background-color: var(--color-Black);
-  color: var(--color-White);
-  height: 2.5rem;
-  width: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 0.5rem;
+  height: 2.5rem;
+  width: 6rem;
+  background-color: var(--color-Black);
+  color: var(--color-White);
 }
 /* MAIN */
 main {
   padding: 3rem;
 }
 .main_center {
-  background-color: var(--color-Alabaster);
-  padding: 3rem;
-  border-radius: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding: 3rem;
+  border-radius: 3rem;
+  background-color: var(--color-Alabaster);
+}
+.main_text p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+.main_text span {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 5rem;
+}
+.main_text span:nth-of-type(3) {
+  background-color: var(--color-Golden-Yellow);
+}
+.main_text span:nth-of-type(1) {
+  background-color: var(--color-White);
+}
+.main_text botton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-White);
+  background-color: var(--color-Black);
+  border-radius: 0.5rem;
+  height: 4rem;
+  width: 11.5rem;
+  font-size: 1.5rem;
 }
 .main_img {
   margin-bottom: -3rem;
