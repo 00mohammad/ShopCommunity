@@ -1,0 +1,28 @@
+body {
+  font-family: "poppins";
+}
+
+:root {
+  --color-Golden-Yellow: hsl(52, 77%, 58%);
+  --color-White: hsl(0, 0%, 100%);
+  --color-Black: hsl(0, 0%, 0%);
+  --color-Light-Steel-Blue: hsl(223, 27%, 80%);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "poppins";
+  stc: url("./assets/fonts/Poppins-Black.woff2") format("woff2");
+  font-weight: 900;
+}÷1
