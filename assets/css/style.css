@@ -1,5 +1,6 @@
 body {
   font-family: "poppins";
+  background-color: var(--color-White);
 }
 
 :root {
@@ -7,22 +8,76 @@ body {
   --color-White: hsl(0, 0%, 100%);
   --color-Black: hsl(0, 0%, 0%);
   --color-Light-Steel-Blue: hsl(223, 27%, 80%);
+  --color-Alabaster: hsl(120, 12%, 96%);
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Regular.woff2") format("woff2");
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Medium.woff2") format("woff2");
+  src: url("/assets/fonts/Poppins-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "poppins";
-  stc: url("./assets/fonts/Poppins-Black.woff2") format("woff2");
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins-Black.ttf") format("truetype");
   font-weight: 900;
-}÷1
+  font-style: normal;
+}
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2.5rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 3rem;
+  font-weight: 400;
+  font-style: normal;
+}
+ul img {
+  margin-right: 30rem;
+}
+
+ul li:last-child {
+  background-color: var(--color-Black);
+  color: var(--color-White);
+  height: 2.5rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+/* MAIN */
+main {
+  padding: 3rem;
+}
+.main_center {
+  background-color: var(--color-Alabaster);
+  padding: 3rem;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main_img {
+  margin-bottom: -3rem;
+}
