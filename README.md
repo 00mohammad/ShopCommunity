@@ -58,28 +58,6 @@ This project is for educational purposes and can be freely used and modified.
 
 ---
 
-ShopCommunity/
-│
-├── index.html # Main HTML file
-├── README.md # Project description
-│
-├── assets/ # All media and style files
-│ ├── css/ # CSS files
-│ │ └── style.css
-│ ├── js/ # JavaScript files
-│ │ └── main.js
-│ ├── fonts/ # Project fonts
-│ │ ├── Poppins-Regular.ttf
-│ │ ├── Poppins-Bold.ttf
-│ │ └── ... (other fonts)
-│ └── images/ # Project images
-│ ├── screenshot.png
-│ ├── banner.png
-│ ├── product1.png
-│ └── ... (other images)
-
----
-
 Key Notes:
 index.html should always be in the root folder.
 CSS and JS files should be in separate folders for clarity.
