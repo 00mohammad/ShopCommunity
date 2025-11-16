@@ -4,6 +4,7 @@ body {
 }
 
 :root {
+  --color-Golden: hsl(48, 76%, 59%);
   --color-Golden-Yellow: hsl(50, 77%, 68%);
   --color-White: hsl(0, 0%, 100%);
   --color-Alabaster: hsl(120, 12%, 96%);
@@ -95,7 +96,7 @@ main {
 .main_text span:nth-of-type(1) {
   background-color: var(--color-White);
 }
-.main_text botton {
+.main_Btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,3 +147,93 @@ main {
   width: 25rem;
   margin-bottom: 2rem;
 }
+nav img {
+  width: 100%;
+  margin-top: 4em;
+}
+nav img:nth-child(2) {
+  width: 20rem;
+  margin-left: 2.5rem;
+}
+.nav_cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.nav_cart img:nth-child(1) {
+  width: 40rem;
+}
+.nav_cart img:nth-child(2) {
+  width: 40rem;
+}
+.img_buttem {
+  width: 65%;
+  margin-top: 4em;
+}
+.nav_APP {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.nav_text_right h1 {
+  max-width: 20rem;
+}
+.nav_text_right p {
+  max-width: 20rem;
+}
+.up_footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25rem;
+  background-color: var(--color-Golden);
+  color: var(--color-Alabaster);
+}
+.up_footer h1 {
+  margin-bottom: -19px;
+  text-align: center;
+  max-width: 34rem;
+}
+.up_footer p {
+  font-size: 1.2rem;
+}
+
+.input_button {
+  position: relative;
+  width: 300px;
+}
+
+.input_button input {
+  height: 3rem;
+  width: 20rem;
+  padding: 10px 120px 10px 10px;
+  font-size: 16px;
+  border: 1px solid var(--color-White);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.input_button button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2.5rem;
+  padding: 0 20px;
+  font-size: 16px;
+  color: var(--color-Alabaster);
+  background-color: var(--color-Black);
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: -1.2rem;
+}
+
