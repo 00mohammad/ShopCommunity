@@ -1,13 +1,30 @@
 # ShopCommunity
 
-**ShopCommunity** is a simple and interactive shopping website built with **HTML, CSS, and JavaScript**.  
-The design is based on Figma files and aims to provide a clean, easy-to-navigate interface.  
-This project is perfect for **learning frontend development** and practicing building realistic web layouts.
+A fully responsive (in-progress) **E‑commerce Frontend Website** built with **HTML, CSS, and JavaScript**, designed based on modern Figma UI concepts.
+
+This project is ideal for learning frontend development, practicing layout building, and understanding the structure of a real-world shop UI.
 
 ---
 
-## 📸 Screenshots
+## 🚀 Features
 
+- Responsive layout (ongoing improvements)
+- Modern UI based on Figma design
+- Clean folder structure
+- Hero section, product cards, banners, footer
+- Easy to customize and extend
+
+---
+
+## 🔗 Live Demo
+
+[https://fluffy-profiterole-a2aab8.netlify.app/](https://fluffy-profiterole-a2aab8.netlify.app/)
+
+> ⚠️ **Note:** This version is **not fully responsive yet** and will be improved.
+
+---
+
+## 🖼️ Screenshots
 ![ShopCommunity Screenshot](./assets/Design/Screenshot_1.png)  
 ![ShopCommunity Screenshot](./assets/Design/Screenshot_2.png)  
 ![ShopCommunity Screenshot](./assets/Design/Screenshot_3.png)  
@@ -19,47 +36,75 @@ _Overview of the website layout and design_
 
 ---
 
-## ✨ Features
+## 📁 Project Structure
 
-- Simple and interactive shopping website
-- Design based on Figma
-- Includes key sections: Header, Hero Banner, Products, Special Offers, Footer
-- Uses **Poppins font** and colors extracted from Figma
-- Great for practicing **HTML, CSS, and JavaScript**
-- **Note:** The site is **not fully responsive yet**
+![Home Screenshot](assets/images/screenshot-home.png)
+![Products Screenshot](assets/images/screenshot-products.png)
 
 ---
 
-## 🚀 Installation
+## 📁 Project Structure
 
-1. Clone this repository:
+[https://fluffy-profiterole-a2aab8.netlify.app/](https://fluffy-profiterole-a2aab8.netlify.app/)
+
+---
+
+## 📁 Project Structure
+
+```
+ShopCommunity/
+│── index.html
+│── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   ├── images/
+│   └── fonts/
+│── README.md
+```
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/00mohammad/ShopCommunity.git
 ```
 
----
+### 2. Open the project
 
-🛠 Usage
-Open index.html in any modern web browser.
-Edit CSS in assets/css/style.css or JS in assets/js/main.js to customize features.
-Add your own images in assets/images if needed.
+Simply open the `index.html` file in your browser.
 
 ---
 
-🤝 Contributing
-This project is mainly for personal learning and practice, but contributions are welcome!
-Please ensure your changes are consistent with the current structure before submitting a Pull Request.
+## 🎨 Customization
+
+You can change styles and behavior:
+
+- **CSS:** `assets/css/style.css`
+- **JavaScript:** `assets/js/main.js`
+- **Images:** `assets/images/`
 
 ---
 
-📄 License
-This project is for educational purposes and can be freely used and modified.
+## 📌 Roadmap
+
+- [ ] Full mobile responsiveness
+- [ ] Add animations
+- [ ] Add real product data
+- [ ] Improve UI accessibility
 
 ---
 
-Key Notes:
-index.html should always be in the root folder.
-CSS and JS files should be in separate folders for clarity.
-Images should go in assets/images so links in HTML and README are easy.
-Fonts go inside assets/fonts and should be referenced correctly in CSS.
+## 🤝 Contributing
+
+Feel free to fork this project and submit pull requests.
+
+---
+
+## 📄 License
+
+This project is for **learning and educational purposes**. You may freely use or modify it.
