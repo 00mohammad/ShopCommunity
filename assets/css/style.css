@@ -1,6 +1,6 @@
 body {
   font-family: "poppins";
-  background-color: var(--color-White);
+  background-color: var(--color-Alabaster);
 }
 
 :root {
@@ -93,13 +93,13 @@ main {
   background-color: var(--color-Golden-Yellow);
 }
 .main_text span:nth-of-type(1) {
-  background-color: var(--color-White);
+  background-color: var(--color-Alabaster);
 }
 .main_Btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--color-White);
+  color: var(--color-Alabaster);
   background-color: var(--color-Black);
   border-radius: 0.5rem;
   height: 4rem;
@@ -215,7 +215,7 @@ nav img:nth-child(2) {
   width: 20rem;
   padding: 10px 120px 10px 10px;
   font-size: 16px;
-  border: 1px solid var(--color-White);
+  border: 1px solid var(--color-Alabaster);
   border-radius: 8px;
   box-sizing: border-box;
 }
