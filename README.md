@@ -1,5 +1,5 @@
 # ShopCommunity
-
+http://shopcommunity.com/
 **ShopCommunity** is a simple and interactive shopping website built with **HTML, CSS, and JavaScript**.  
 The design is based on Figma files and aims to provide a clean, easy-to-navigate interface.  
 This project is perfect for **learning frontend development** and practicing building realistic web layouts.
